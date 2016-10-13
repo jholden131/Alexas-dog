@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Text element used to print mouse position.
+		 We are using jQuery to select it by its uniquely-named class.
+		 The class starts with "js" to indicate that it's a javascript "hook".
+		 If we decide to use another class to style this element, 
+		 it will be separate from the interactivity.You can comment this out later-->
+
+	<div id="avoidIDs" class="js-mouse-coord text-field"></div>
+
+	<!-- Element where we are attaching the interactity
+		-->
+	<div class="js-mouse-interaction image-container">
+		<img src="images/Copy%20for%20Alexa.jpg" class="transluscent-image">
+		<img src="images/puppy.jpg" class="js-fade-in">
+	</div>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/mouseInteractions.js"></script>
+<!--Now Try to create your own interaction with mouse movement and something like opacity :)... Helpful Links http://javascript.info/tutorial/mouse-events
+http://www.quirksmode.org/js/events_mouse.html
+http://www.w3schools.com/js/js_events_examples.asp
+-->
+</body>
+</html>
